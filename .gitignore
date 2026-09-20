@@ -1,0 +1,54 @@
+# ==========================================
+# 1. ARTEFACTOS DE COMPILACIÓN Y BINARIOS JAVA
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+/bin/
+/target/
+/build/
+/out/
+*.log
+
+# ==========================================
+# 2. CONFIGURACIÓN DE IDEs Y EDITORES
+# ==========================================
+# Eclipse IDE
+.metadata/
+.classpath
+.project
+.settings/
+*.tmp
+*.bak
+*.mec
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.launch
+
+# ==========================================
+# 3. ARCHIVOS DEL SISTEMA OPERATIVO (WINDOWS / MAC)
+# ==========================================
+Thumbs.db
+Thumbs.db:encrypt
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+
+# ==========================================
+# 4. ARCHIVOS TEMPORALES Y CACHÉ DE NAVEGADOR
+# ==========================================
+*.swp
+*~
+*.bak
+.cache/
